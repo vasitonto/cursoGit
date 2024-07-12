@@ -20,9 +20,12 @@ Esta función utiliza el cmdlet Get-Credential para pedir al usuario un par de n
 
 ### Funcionamiento general del programa.
 Idealmente, el programa pediría las credenciales al usuario y le pide a la API una cookie de sesión. Entonces, el programa pide al usuario una entrada por terminal que pueden ser 3 cosas diferentes:
-1. Una URL a algún recurso, obtenida de pinchar en el menú lateral de 3 puntos de cada elemento. Esta URL será la que se utilice para re
+1. Una URL a algún recurso, obtenida de pinchar en el menú lateral de 3 puntos de cada elemento. Esta URL será la que se utilice para realizar la solicitud a la API. 
+2. Una cadena vacía: Al introducir la cadena vacía, el programa llamará a la API con la URL que corresponde al conjunto de reglas de SERVAPP-PRO. 
+3. El carácter "q": Cuando se introduce este carácter, el programa se termina. 
+Después de esto, si se ha introducido la 1 o la 2, el programa realiza la solicitud, la muestra (idealmente la muestra formateada 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg4NjkyMjIsMTkyMzQ1NTAwOSwxOD
-U4MDQ1Nzc4LDEwMDc1NTgxMDYsLTE1MDM3MDU4MCw4MDc5MTM2
-NzQsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE1MjY4NjEzMCwxOTIzNDU1MDA5LDE4NT
+gwNDU3NzgsMTAwNzU1ODEwNiwtMTUwMzcwNTgwLDgwNzkxMzY3
+NCwtMzMyNDU1MzYzXX0=
 -->
