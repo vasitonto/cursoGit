@@ -14,12 +14,11 @@ Esta función pide una cadena al usuario por la terminal, para realizar la consu
 
 ### Función Intro-Cred:
 - Esta función no recibe parámetros.
-
-
+- Devuelve las cabeceras de autenticación que se usarán en el la solicitud a la API.
 
 Para obtener los datos de autenticación de cliente se tendrá que utilizar un par usuario:contraseña, cifradas en Base64 y  esta función utiliza el cmdlet Get-Credential. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzQ1NTAwOSwxODU4MDQ1Nzc4LDEwMD
-c1NTgxMDYsLTE1MDM3MDU4MCw4MDc5MTM2NzQsLTMzMjQ1NTM2
-M119
+eyJoaXN0b3J5IjpbLTk5Mjc4NDQ4NywxOTIzNDU1MDA5LDE4NT
+gwNDU3NzgsMTAwNzU1ODEwNiwtMTUwMzcwNTgwLDgwNzkxMzY3
+NCwtMzMyNDU1MzYzXX0=
 -->
