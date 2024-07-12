@@ -17,9 +17,11 @@ Esta función pide una cadena al usuario por la terminal, para realizar la consu
 - Devuelve las cabeceras de autenticación que se usarán en el la solicitud a la API.
 
 Esta función utiliza el cmdlet Get-Credential para pedir al usuario un par de nombre de usuario y contraseña, los convierte a Base64 y los mete en una tabla Hash que se enviará de cabecera a la solicitud de la API.
-### Desarrollo general del programa 
+
+### Funcionamiento general del programa.
+Idealmente, el programa pediría las credenciales al usuario y comprueba que son correctas. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDkzODI2NCwxOTIzNDU1MDA5LDE4NT
-gwNDU3NzgsMTAwNzU1ODEwNiwtMTUwMzcwNTgwLDgwNzkxMzY3
-NCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE1OTcxODMyNDUsMTkyMzQ1NTAwOSwxOD
+U4MDQ1Nzc4LDEwMDc1NTgxMDYsLTE1MDM3MDU4MCw4MDc5MTM2
+NzQsLTMzMjQ1NTM2M119
 -->
