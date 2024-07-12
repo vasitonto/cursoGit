@@ -19,9 +19,10 @@ Esta función pide una cadena al usuario por la terminal, para realizar la consu
 Esta función utiliza el cmdlet Get-Credential para pedir al usuario un par de nombre de usuario y contraseña, los convierte a Base64 y los mete en una tabla Hash que se enviará de cabecera a la solicitud de la API.
 
 ### Funcionamiento general del programa.
-Idealmente, el programa pediría las credenciales al usuario y comprueba que son correctas. 
+Idealmente, el programa pediría las credenciales al usuario y le pide a la API una cookie de sesión. Entonces, el programa pide al usuario una entrada por terminal que pueden ser 3 cosas diferentes:
+1. Una URL a algún recurso, obtenida de pinchar en el menú lateral de 3 puntos de cada elemento. Esta URL será la que se utilice para re
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcxODMyNDUsMTkyMzQ1NTAwOSwxOD
+eyJoaXN0b3J5IjpbLTE2Nzg4NjkyMjIsMTkyMzQ1NTAwOSwxOD
 U4MDQ1Nzc4LDEwMDc1NTgxMDYsLTE1MDM3MDU4MCw4MDc5MTM2
 NzQsLTMzMjQ1NTM2M119
 -->
