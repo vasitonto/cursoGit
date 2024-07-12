@@ -23,9 +23,11 @@ Idealmente, el programa pediría las credenciales al usuario y le pide a la API 
 1. Una URL a algún recurso, obtenida de pinchar en el menú lateral de 3 puntos de cada elemento. Esta URL será la que se utilice para realizar la solicitud a la API. 
 2. Una cadena vacía: Al introducir la cadena vacía, el programa llamará a la API con la URL que corresponde al conjunto de reglas de SERVAPP-PRO. 
 3. El carácter "q": Cuando se introduce este carácter, el programa se termina. 
-Después de esto, si se ha introducido la 1 o la 2, el programa realiza la solicitud, la muestra (idealmente la muestra formateada 
+
+Después de esto, si se ha introducido la 1 o la 2, el programa realiza la solicitud, la muestra (idealmente la muestra formateada según el recurso que se haya pedido pero no me ha dado tiempo a hacer esto) y vuelve a pedirle una cadena al usuario para solicitudes posteriores.
+También había pensado en hacer un procesamiento de los posibles errores pero no he conseguido averiguar cómo sacar los campos del 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY4NjEzMCwxOTIzNDU1MDA5LDE4NT
+eyJoaXN0b3J5IjpbLTM3MTQxOTE3MSwxOTIzNDU1MDA5LDE4NT
 gwNDU3NzgsMTAwNzU1ODEwNiwtMTUwMzcwNTgwLDgwNzkxMzY3
 NCwtMzMyNDU1MzYzXX0=
 -->
