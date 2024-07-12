@@ -14,8 +14,13 @@ Esta función pide una cadena al usuario por la terminal, para realizar la consu
 
 ### Función Intro-Cred:
 - Esta función no recibe parámetros.
-- 
+
+
+
+Para obtener los datos de autenticación de cliente se tendrá que utilizar un par usuario:contraseña, se puede obtener con el cmdlet Get-Credential
+Para añadir automáticamente un dominio de usuario al introducir el nombre, e puede escribir, por ejemplo "-Credential gestcarm\"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODA0NTc3OCwxMDA3NTU4MTA2LC0xNT
-AzNzA1ODAsODA3OTEzNjc0LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTEwNjc0NjczMTAsMTg1ODA0NTc3OCwxMD
+A3NTU4MTA2LC0xNTAzNzA1ODAsODA3OTEzNjc0LC0zMzI0NTUz
+NjNdfQ==
 -->
