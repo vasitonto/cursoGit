@@ -5,15 +5,16 @@ A pesar de que el script está incompleto, mi idea consistía en un programa que
 ## Funciones.
 ### Función Parse-URL:
 - Esta función no recibe parámetros. 
-- Pide  por terminal. 
+- Devuelve una cadena. 
 
-Esta función pide una cadena al usuario y se esperan 3 cadenas diferentes:
-1. Una cadena vacía: 
+Esta función pide una cadena al usuario por la terminal, para realizar la consulta a la API de NSX-T. Se esperan 3 cadenas diferentes:
+1. Una cadena vacía: Se autocompletará por defecto a la URL que pide todas las reglas de SERVAPP-PRO-
+2. Una URL a algún rec 
 
 ### Función Intro-Cred:
 - Esta función tampoco recibe parámetros.
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3ODE3ODYwLC0xNTAzNzA1ODAsODA3OT
+eyJoaXN0b3J5IjpbMjkxMzQ4ODQ1LC0xNTAzNzA1ODAsODA3OT
 EzNjc0LC0zMzI0NTUzNjNdfQ==
 -->
