@@ -17,11 +17,10 @@ Esta función pide una cadena al usuario por la terminal, para realizar la consu
 
 
 
-Para obtener los datos de autenticación de cliente se tendrá que utilizar un par usuario:contraseña, se puede obtener con el cmdlet Get-Credential
-Para añadir automáticamente un dominio de usuario al introducir el nombre, 
-se puede escribir, por ejemplo "-Credential gestcarm\"
+Para obtener los datos de autenticación de cliente se tendrá que utilizar un par usuario:contraseña, esta función utiliza el cmdlet Get-Credential. 
+Para la autenticación hará falta convertir las credenciales a una cadena en Base64
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODEwNDc5MTEsMTg1ODA0NTc3OCwxMD
-A3NTU4MTA2LC0xNTAzNzA1ODAsODA3OTEzNjc0LC0zMzI0NTUz
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTUxNTgxMzk4NiwxODU4MDQ1Nzc4LDEwMD
+c1NTgxMDYsLTE1MDM3MDU4MCw4MDc5MTM2NzQsLTMzMjQ1NTM2
+M119
 -->
