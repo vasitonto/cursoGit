@@ -26,9 +26,9 @@ Idealmente, el programa pediría las credenciales al usuario y le pide a la API 
 
 Después de esto, si se ha introducido la 1 o la 2, el programa realiza la solicitud, la muestra (idealmente la muestra formateada según el recurso que se haya pedido pero no me ha dado tiempo a hacer esto) y vuelve a pedirle una cadena al usuario para solicitudes posteriores.
 También había pensado en hacer un procesamiento de los posibles errores pero no he conseguido averiguar cómo sacar los campos de los errores que devuelve la api, probablemente se pueden sacar con el cmdlet Invoke-WebRequest.
-Mi idea era recorrer el JSON que devuelve la llamada a la API y, en caso de que se pida una regla, recorrer los grupos origen y destino y mostrar sus direcciones. Est
+Mi idea era recorrer el JSON que devuelve la llamada a la API y, en caso de que se pida una regla, recorrer los grupos origen y destino y mostrar sus direcciones. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODM3NjUzNiwxOTIzNDU1MDA5LDE4NT
-gwNDU3NzgsMTAwNzU1ODEwNiwtMTUwMzcwNTgwLDgwNzkxMzY3
-NCwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbNzIyMDI2NTE4LDE5MjM0NTUwMDksMTg1OD
+A0NTc3OCwxMDA3NTU4MTA2LC0xNTAzNzA1ODAsODA3OTEzNjc0
+LC0zMzI0NTUzNjNdfQ==
 -->
