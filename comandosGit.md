@@ -17,10 +17,9 @@ Esta función pide una cadena al usuario por la terminal, para realizar la consu
 
 
 
-Para obtener los datos de autenticación de cliente se tendrá que utilizar un par usuario:contraseña, esta función utiliza el cmdlet Get-Credential. 
-Para la autenticación hará falta convertir las credenciales a una cadena en Base64
+Para obtener los datos de autenticación de cliente se tendrá que utilizar un par usuario:contraseña, cifradas en Base64 y  esta función utiliza el cmdlet Get-Credential. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNTgxMzk4NiwxODU4MDQ1Nzc4LDEwMD
+eyJoaXN0b3J5IjpbMTkyMzQ1NTAwOSwxODU4MDQ1Nzc4LDEwMD
 c1NTgxMDYsLTE1MDM3MDU4MCw4MDc5MTM2NzQsLTMzMjQ1NTM2
 M119
 -->
